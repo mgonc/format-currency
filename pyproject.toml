@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "format-currency"
+name = "format-currency-turbo"
 dynamic = ["version"]
 description = 'A no-frill currency formatting library.'
 readme = "README.md"
@@ -30,9 +30,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Documentation = "https://github.com/arifwn/format-currency#readme"
-Issues = "https://github.com/arifwn/format-currency/issues"
-Source = "https://github.com/arifwn/format-currency"
+Documentation = "https://github.com/mgonc/format-currency#readme"
+Issues = "https://github.com/mgonc/format-currency/issues"
+Source = "https://github.com/mgonc/format-currency"
 
 [tool.hatch.version]
 path = "src/format_currency/__about__.py"
